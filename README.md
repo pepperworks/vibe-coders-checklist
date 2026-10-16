@@ -26,6 +26,49 @@ The checklist is packaged as a Claude skill. Claude looks at your actual code an
 
 The full checklist is in [`vibe-code-launch-check/SKILL.md`](vibe-code-launch-check/SKILL.md).
 
+## Skill too much for you? Here is the list
+
+- add CI/CD
+- add unit tests
+- add smoke tests
+- add regression tests
+- validate SEO and AEO (sitemap, robots.txt, structured data)
+- add alerting
+- include performance monitoring
+- create analytics
+- check auth on every endpoint
+- run a dependency audit
+- test it on multiple devices
+- test it on slow networks
+- set spend caps and billing alerts
+- back up your database
+- actually test a restore
+- have a rollback plan for bad deploys
+- keep secrets out of the repo
+- rotate any keys that leaked
+- add rate limiting
+- add error tracking
+- add logging
+- set up uptime monitoring
+- create a staging environment
+- set up your custom domain and SSL
+- configure email auth (SPF/DKIM/DMARC)
+- build real 404, 500, empty, and loading states
+- write evals
+- test for prompt injection
+- add a fallback for when the model API goes down
+- handle token limits and context overflow
+- make it accessible
+- add a privacy policy and terms
+- add cookie consent
+- let users delete their account and data
+- make sure password reset works
+- make sure email verification works
+- add OG images and a favicon
+- optimize images
+- set up caching
+- write a README so future you knows how it works
+
 ## License
 
 Apache 2.0
